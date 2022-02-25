@@ -1,5 +1,5 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
 
@@ -8,7 +8,8 @@ int main(int _argc, char **_argv)
 
   int x,y;
   scanf("%d", &y);
-  int value[y], low, high, rata;
+  int value[y], low, high;
+  float rata;
   for ( x = 0; x < y; x++)
   {
     scanf("%d", &value[x]);
@@ -26,10 +27,11 @@ int main(int _argc, char **_argv)
     
 
   }
-  
+
   int len = sizeof(value) / sizeof(*value);
     int total = 0;
-    for(x = 0; x < len; x++) {
+    for(x = 0; x < len; x++) 
+    {
       total += value[x];
     }
 
