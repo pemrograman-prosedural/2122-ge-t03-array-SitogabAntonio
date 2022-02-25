@@ -27,14 +27,16 @@ int x,y;
     
 
   }
+  
   int len = sizeof(value) / sizeof(*value);
     int total = 0;
-    for(x = 0; x < len; x++)
+    for(x = 0; x < len; x++) 
     {
       total += value[x];
     }
 
   rata = (float)total / (float)len;
+
   int distance[y];
   for(x=0; x<= y-2; x++)
   {
@@ -52,7 +54,7 @@ int x,y;
     }
   }
 
-  
+
   printf("%d\n%d\n%f.2\n%d\n", low, high, rata, distvalue);
 
   return 0;

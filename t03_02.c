@@ -36,6 +36,7 @@ int main(int _argc, char **_argv)
 
   rata = (float)total / (float)len;
   
+  
   printf("%d\n%d\n%f.2\n", low, high, rata);
   
 
