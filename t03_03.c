@@ -55,7 +55,7 @@ int x,y;
   }
 
 
-  printf("%d\n%d\n%f.2\n%d\n", low, high, rata, distvalue);
+  printf("%d\n%d\n%.2f\n%d\n", low, high, rata, distvalue);
 
   return 0;
 }
