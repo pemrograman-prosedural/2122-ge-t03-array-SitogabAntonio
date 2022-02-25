@@ -51,6 +51,7 @@ int x,y;
       distvalue = distance[x];
     }
   }
+
   
   printf("%d\n%d\n%f.2\n%d\n", low, high, rata, distvalue);
 

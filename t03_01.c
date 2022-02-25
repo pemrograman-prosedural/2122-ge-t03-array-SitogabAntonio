@@ -26,6 +26,7 @@ int x,y;
     
     
   }
+
   
   printf("%d\n%d\n", low, high);
 

@@ -25,7 +25,6 @@ int main(int _argc, char **_argv)
       low = value[x];
     }
     
-
   }
 
   int len = sizeof(value) / sizeof(*value);
